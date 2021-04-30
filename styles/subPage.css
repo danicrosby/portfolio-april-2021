@@ -1,0 +1,45 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#content-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 10em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  color: grey;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: lightgrey;
+}
+
+#nav-container {
+  text-align: end;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 28em;
+  width: 10em;
+  padding: 1em;
+  border: 2px solid darkorchid;
+  opacity: .6;
+}
+
+#content-container{
+  display: flex;
+  justify-content: center;
+}
