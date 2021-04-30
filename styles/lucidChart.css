@@ -1,0 +1,30 @@
+#body {
+  display: flex;
+  justify-content: center;
+}
+
+#content-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 5em;
+  padding-left: 2em;
+}
+
+#nav-container {
+  text-align: end;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 25.8em;
+  width: 8em;
+  padding: 1em;
+  margin-right: 2em;
+  border: 2px solid darkorchid;
+  opacity: .6;
+}
+
+#content-container {
+  display: flex;
+  justify-content: flex-start;
+  background-color: grey;
+  width: 55em;
+}
