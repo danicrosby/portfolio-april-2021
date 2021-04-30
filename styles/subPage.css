@@ -5,6 +5,20 @@ body {
   display: flex;
   justify-content: flex-start;
 }
+body {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
 
 #content-wrapper {
   display: flex;
@@ -33,6 +47,9 @@ b{
 }
 
 #nav-container {
+  animation: fadeInAnimation ease .6s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   text-align: end;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
