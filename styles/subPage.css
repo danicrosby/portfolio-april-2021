@@ -28,6 +28,10 @@ li a:hover {
   color: lightgrey;
 }
 
+b{
+  color: darkorchid
+}
+
 #nav-container {
   text-align: end;
   font-size: 20px;
