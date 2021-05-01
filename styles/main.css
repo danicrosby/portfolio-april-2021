@@ -1,16 +1,17 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
+  display: flex;
+  justify-content: center;
   animation: fadeInAnimation ease .8s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   background-color: #fafafa;
-  display: flex;
-  justify-content: flex-start;
   background-image: url(/images/About.png);
   background-repeat: no-repeat;
-  background-size: 75%;
-  background-position-x: 40%;
+  background-size: 80%;
+  background-position-x: right;
+
 }
 
 @keyframes fadeInAnimation {
@@ -22,10 +23,10 @@ body {
    }
 }
 
-#content-wrapper {
+.jumbotron {
   display: flex;
   justify-content: center;
-  margin-top: 10em;
+  margin-top: 6em;
 }
 
 ul {
@@ -44,16 +45,25 @@ li a:hover {
   color: lightgrey;
 }
 
+#profile-img-container {
+  display: flex;
+  justify-content: center;
+  width: 30em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 #profile-image {
   height: 35em;
 }
 
 #nav-container {
   text-align: end;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
-  height: 28em;
-  width: 11em;
+  height: 31em;
+  width: 16em;
+  margin-left: 2em;
   padding: 1em;
   border: 2px solid darkorchid;
   opacity: .6;
@@ -77,18 +87,17 @@ li a:hover {
 #greeting-section {
   display: flex;
   flex-direction: column;
-  width: 40em;
-  margin-top: 6em;
-  margin-left: 2em;
+  margin-top: 5em;
 }
 
 #paragraph-container {
   display: flex;
   justify-content: center;
+  width: 30em;
 }
 
 #about-me-paragraph {
-  font-size: 20px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6em;
   margin-top: 1em;
